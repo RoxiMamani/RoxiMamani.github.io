@@ -462,7 +462,7 @@ input{
 
 
 body::-webkit-scrollbar{
-    background: transparent;
+    background-color: transparent;
     width: 5px;
 }
 body::-webkit-scrollbar-thumb{
