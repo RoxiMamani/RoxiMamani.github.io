@@ -1,0 +1,48 @@
+.clips1{
+    display: block;
+    border-radius: 10px;
+    background-color: rgb(56, 56, 56);
+    border: 0;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+}
+.clips1 h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+#info-claps{
+    display: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 10px;
+    margin: 10px;
+}
+#info-gain{
+    display: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 10px;
+    margin: 10px;
+}
+.icono4{
+    border-radius: 50%;
+    height: 100px;
+}
+.descirpcion2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.milanesita button{
+    display: inline-block;
+    margin-right: 10px;
+    margin: 10px;
+}
+.invi{
+    color: aqua;
+    font-size: 25px;
+}
+body{
+    background-color: #303030;
+    justify-content: center;
+    align-items: center;
+}

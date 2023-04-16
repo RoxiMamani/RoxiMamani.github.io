@@ -43,3 +43,24 @@ window.addEventListener("load", function () {
       document.getElementById("cerrar").addEventListener("click", function () {
         document.getElementById("contenedor").style.display = "none";
       });
+      function cerrar2() {
+        document.getElementById("notification").style.display = "none";
+      }
+      
+      function info() {
+        var elemento = document.getElementById("info-claps");
+        if (elemento.style.display === "none") {
+          elemento.style.display = "block";
+        } else {
+          elemento.style.display = "none";
+        }
+      }
+
+      function info2() {
+        var elemento = document.getElementById("info-gain");
+        if (elemento.style.display === "none") {
+          elemento.style.display = "block";
+        } else {
+          elemento.style.display = "none";
+        }
+      }
