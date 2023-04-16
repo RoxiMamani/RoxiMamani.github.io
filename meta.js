@@ -64,3 +64,12 @@ window.addEventListener("load", function () {
           elemento.style.display = "none";
         }
       }
+
+      function info3() {
+        var elemento = document.getElementById("info-sweatcoin");
+        if (elemento.style.display === "none") {
+          elemento.style.display = "block";
+        } else {
+          elemento.style.display = "none";
+        }
+      }
